@@ -1,0 +1,94 @@
+@import url(typography.css);
+@import url(normalize.css);
+@import url(utils.css);
+
+* {
+  font-family: "melon-ui", Helvetica, Arial, sans-serif;
+  background-color: var(--primary-color);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-banner {
+  width: 16rem;
+  height: 16rem;
+  margin-top: 3rem;
+}
+
+.rotate {
+  animation: rotation 2s;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-left {
+  margin-left: 3.75rem;
+}
+
+.font-color {
+  color: var(--cta-color);
+}
+
+.banner-styled {
+  font-size: 5rem;
+  font-variant: small-caps;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.75rem;
+}
+
+.font-variant {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cta-button {
+  background: var(--cta-support-color);
+  border: 1px solid var(--cta-support-color);
+  color: var(--primary-color);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: var(--font-size-medium);
+  padding: 0.5rem;
+  margin-right: 1.25rem;
+}
+
+.secondary-action {
+  background: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: var(--font-size-medium);
+  padding: 0.5rem;
+}

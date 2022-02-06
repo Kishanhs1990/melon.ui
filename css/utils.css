@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #e8f7ee;
+  --secondary-color: #090809;
+  --cta-color: #ffa69e;
+  --cta-support-color: #4c743b;
+
+  --font-size-xsmall: 8px;
+  --font-size-small: 16px;
+  --font-size-medium: 24px;
+  --font-size-large: 32px;
+  --font-size-xlarge: 48px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+}
