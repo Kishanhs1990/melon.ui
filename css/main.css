@@ -81,6 +81,7 @@ ul {
   font-size: var(--font-size-medium);
   padding: 0.5rem;
   margin-right: 1.25rem;
+  text-decoration: none;
 }
 
 .secondary-action {
@@ -88,6 +89,7 @@ ul {
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
   border-radius: 0.25rem;
+  text-decoration: none;
   cursor: pointer;
   font-size: var(--font-size-medium);
   padding: 0.5rem;

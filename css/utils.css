@@ -16,3 +16,8 @@
   --font-weight-bold: 700;
   --font-weight-black: 900;
 }
+
+.flexBox {
+  display: flex;
+  justify-content: center;
+}
